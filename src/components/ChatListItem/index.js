@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     flex: 1,
 
     borderBottomWidth: StyleSheet.hairlineWidth,
-    borderBottomColor: 'white',
+    borderBottomColor: 'grey',
   },
   row: {
     flexDirection: 'row',
@@ -58,10 +58,10 @@ const styles = StyleSheet.create({
   name: {
     flex: 1,
     fontWeight: 'bold',
-    color: 'white'
+    color: 'black'
   },
   subTitle: {
-    color: 'white',
+    color: 'black',
   },
 });
 
