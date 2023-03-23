@@ -13,12 +13,12 @@ const Message = ({ message }) => {
       style={[
         styles.container,
         {
-          backgroundColor: isMyMessage() ? '#DCF8C5' : 'white',
+          backgroundColor: isMyMessage() ? '#054643' : '#202d36',
           alignSelf: isMyMessage() ? 'flex-end' : 'flex-start',
         },
       ]}
     >
-      <Text>{message.text}</Text>
+      <Text style={{ color: 'white' }} >{message.text}</Text>
       <Text style={styles.time}>{dayjs(message.createdAt).fromNow(true)}</Text>
     </View>
   );
